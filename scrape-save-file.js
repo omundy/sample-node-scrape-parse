@@ -2,14 +2,18 @@
  *	Scrape a page and save it as a file
  */
 
-// import filesystem module
+// import modules
 let fs = require("fs");
-// import filesystem module
 let fetch = require("node-fetch");
-// url to scrape
-let url = "https://www.google.com/search?q=cats";
-// the name of the file
-var filename = "scraped-pages/google.com-cats.html";
+
+// url to scrape, name of the file
+// let url = "https://www.google.com/search?q=cats";
+// var filename = "scraped-pages/google.com-cats.html";
+// let url = "https://owenmundy.com";
+// var filename = "scraped-pages/owenmundy.com.html";
+let url = "https://angular.io/";
+var filename = "scraped-pages/angular.io.html";
+
 // set headers to ensure utf8
 var headers = new Headers();
 headers.append('Content-Type','text/plain; charset=UTF-8');
