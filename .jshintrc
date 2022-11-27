@@ -10,5 +10,6 @@
 	"globals": {
 		"$": false,
 		"fetch": true
-	}
+	},
+	"-W079": false
 }
